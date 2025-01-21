@@ -1,0 +1,152 @@
+:root{
+    --babaKek: #e3f2fd;
+    --sotetKek: #B2DDFC;
+    --hotInkS: 'Hot ink', sans-serif;
+}
+.navbar{ background-color: var(--babaKek);  border-bottom: var(--sotetKek);border-style: groove;}
+.logo{font-family: var(--hotInkS);  font-size: 22pt;}
+.logoUdv{ font-family: var(--hotInkS);  font-size: 30pt;}
+.logoKozepes{font-family: var(--hotInkS);font-size: 22pt;}
+.logoKicsi{font-family: var(--hotInkS); font-size: 18pt;
+}
+.logoPici{font-family: var(--hotInkS); font-size: 14pt;}
+.kozepesCim{font-family: 'Hot ink';font-size: 24pt;}
+.kisCim{text-align: center; font-family: 'Hot ink'; font-size: 20pt;}
+.bovebben{font-family: 'Risthiya Brush', sans-serif;font-size: 18pt;}
+.menupontok{font-size: 14pt; font-family:Arial, Helvetica, sans-serif;}
+.kontiner{margin-top:35pt; text-align: center;}
+.footer{
+    background-color: var(--babaKek);
+    bottom: 0;
+    margin-top: 10pt;
+    padding-bottom: 0;
+    text-align: center;
+}
+.card{
+    padding-left: 10pt; 
+    padding-right: 10pt; 
+    padding-top: 5pt; 
+    padding-bottom: 5pt;
+    margin:5pt;
+    text-align: center; 
+    text-align: justify;
+    border-style: groove; 
+    border-color: var(--babaKek); 
+    background-color: var(--babaKek);
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1pt dotted black;
+}  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120pt;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6pt;
+    padding: 5pt;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60pt;
+}
+.tooltip:hover .tooltiptext { visibility: visible; font-size: 20pt;}
+p,li{  text-align: justify;}
+.ajanlatH3{text-align: center;}
+.myForm{  text-align: left; padding-top:10pt;}
+.ajanlatKer{  
+    margin-top: 0pt;
+    font-size: 18pt;
+    text-align: center;
+    font-family: 'Risthiya Brush', sans-serif;
+    padding-left:5pt;
+    padding-right: 5pt;
+    border-radius: 20px;
+}
+.udvozles{
+    margin-top: 20pt;
+    text-align: center;
+    padding-left:10pt;padding-right: 10pt;padding-bottom: 5pt;
+    background-color: var(--babaKek);
+    border-style: groove; border-color: var(--babaKek); background-color: var(--babaKek);
+}
+.footUfi{
+    font-family: 'Risthiya Brush', sans-serif;
+    font-size: 24pt;
+    padding-bottom: 0;
+    text-decoration: underline;
+}
+.kepek{
+    width: 225px;
+    margin: 10px 10px 25px 25px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #888888;
+    -ms-transform: rotate(3deg); /* IE 9 */
+    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+    transform: rotate(3deg);
+    float: right;
+}
+.kepekAr{
+    width: 220px;
+    margin: 10px 10px 25px 25px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #888888;
+    -ms-transform: rotate(3deg); /* IE 9 */
+    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+    transform: rotate(3deg);
+    float: right;
+}
+.kapcsolatDob{
+    margin-top:20pt;
+    text-align: center;
+    margin-top: 10pt;
+    text-align: center; 
+    border-style: groove; 
+    border-color: var(--babaKek); 
+    background-color: var(--babaKek);
+}
+.irott{font-family: 'Risthiya Brush', sans-serif;}
+.mapouter{ margin-top:10pt;}
+.fontos{color: red;font-size: 8pt;}
+#hiba{color:red;}
+.ertekelo{
+    width: 300pt;
+    border-style: groove; 
+    border-color: var(--babaKek); 
+    background-color: var(--babaKek);
+    padding-left: 10pt; 
+    padding-right: 10pt; 
+    padding-top: 5pt; 
+    padding-bottom: 5pt;
+    margin:5pt;
+    border-radius: 20px;
+}
+.gomb-ertekel{
+    float: right;
+    margin-top: 0pt;
+    font-size: 16pt;
+    text-align: center;
+    font-family: 'Risthiya Brush', sans-serif;
+    padding-left:5pt;
+    padding-right: 5pt;
+    border-radius: 20px;
+}
+#eredmeny{
+    text-align: center;
+    padding-left:10pt;
+    padding-right:10pt;
+}
+.be{
+    text-align: center;
+}
+.calculatorText{
+    text-align: center;
+    font-family: 'Risthiya Brush', sans-serif;
+    font-size: 24pt;
+    text-decoration: underline;
+}
